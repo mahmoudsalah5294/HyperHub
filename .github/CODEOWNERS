@@ -1,0 +1,11 @@
+# CODEOWNERS file for GitHub repository
+
+# Mahmoud (the owner) is the default code owner for everything
+*       @mahmoudsalah5294
+
+# PRs from Mohamed must be approved by Mahmoud
+# (already covered by the default owner rule)
+
+# PRs from Gehad or Aliaa can be approved by Mahmoud or Mohamed
+# Note: GitHub applies the first matching rule, so this line is for context only
+# You should manually approve based on internal agreement
