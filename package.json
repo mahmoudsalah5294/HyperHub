@@ -1,0 +1,31 @@
+{
+  "name": "hyperhub",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web-based graduation project structure.",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint js",
+    "lint:html": "htmlhint index.html",
+    "lint:css": "stylelint 'css/**/*.css'",
+    "lint": "npm run lint:js && npm run lint:html && npm run lint:css",
+    "test": "echo \"No tests defined yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudsalah5294/HyperHub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmoudsalah5294/HyperHub/issues"
+  },
+  "homepage": "https://github.com/mahmoudsalah5294/HyperHub#readme",
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "htmlhint": "^1.5.0",
+    "stylelint": "^16.20.0",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}
